@@ -23,8 +23,8 @@ public class Paf28lApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// gameRepository.findGamesByName("carcassonne")
-		gameRepository.groupCommentsByUser2()
-			.forEach(d -> System.out.println(d + "\n"));
+		// gameRepository.groupCommentsByUser2()
+		// 	.forEach(d -> System.out.println(d + "\n"));
 
 		// seriesRepository.listSeriesByGenres()
 		// 	.forEach(d -> System.out.println(d + "\n"));
